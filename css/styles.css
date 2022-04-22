@@ -364,25 +364,28 @@ margin: 0 auto;
     margin-bottom: 0;
 }
 
+.team-soc-item+.team-soc-item {
+    margin-left: 10px;
+}
+
 .team-soc-link {
     width: 44px;
     height: 44px;
-    background-color: green;
+    background-color: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: red;
-}
+    color: #AFB1B8;
+   }
 
-.team-soc-item{
+.team-soc-icon {
     fill: currentColor;
 }
 
-.team-soc-link:hover, 
-.team-soc-link:focus{
+.team-soc-link:hover{
     background-color: #2196F3;
-    fill: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .team-soc-list {
@@ -391,13 +394,6 @@ margin: 0 auto;
     margin-bottom: 16px;
 }
 
-.team-soc-item + .team-soc-item{
-    margin-left: 10px;
-}
-
-.team-soc-icon {
-    fill: #AFB1B8;
-}
 
 .footer {
     padding-top: 60px;
