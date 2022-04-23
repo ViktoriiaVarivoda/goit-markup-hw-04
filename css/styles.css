@@ -162,6 +162,12 @@ img
     color: #2196F3;
 }
 
+.mailto-tel-soc-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+
 .hero-title {
     margin-bottom: 30px;
 
@@ -227,6 +233,33 @@ margin: 0 auto;
     width: 270px;
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.section-one-item::before{
+    display: block;
+    content: '';
+    height: 120px;
+    background: #F5F4FA;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.icon-antenna::before{
+    background-image: url('../images/antenna.svg');
+}
+
+.icon-clock::before {
+    background-image: url('../images/clock.svg');
+}
+
+.icon-diagram::before {
+    background-image: url('../images/diagram.svg');
+}
+
+.icon-astronaut::before {
+    background-image: url('../images/astronaut.svg');
 }
 
 .section-one-item:nth-child(4n) {
@@ -395,6 +428,43 @@ background: #F5F4FA;
     margin-bottom: 16px;
 }
 
+.clients-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.clients-soc-link{
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    color: #AFB1B8;
+}
+
+.clients-soc-icon {
+    fill: currentColor;
+}
+
+.clients-soc-link:hover,
+.clients-link:focus {
+    background-color: #FFFFFF;
+    color: #2196F3;
+}
+
+.clients-soc-list{
+    display: flex;
+    justify-content: center;
+}
+
+.clients-soc-item + .clients-soc-item{
+    margin-left: 30px;
+}
 
 .footer {
     padding-top: 60px;
