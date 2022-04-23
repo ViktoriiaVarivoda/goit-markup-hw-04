@@ -63,7 +63,7 @@ img
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    display: flex;
+    display: ;
 }
 
 .main-nav{
@@ -186,7 +186,7 @@ img
       url(../images/img12.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-max-width: 1280px;
+max-width: 1600px;
 margin: 0 auto;
 }
 
@@ -402,7 +402,6 @@ margin: 0 auto;
     padding-bottom: 60px;
     display: flex;
     background-color: #2F303A;
-    
 }
 
 .footer-logo {
@@ -491,10 +490,10 @@ margin: 0 auto;
     display: flex;
 }
 
-.footer-soc-content {
+.footer-soc-content{
     display: flex;
-
 }
+
 /*------------portfolio.html-----------*/
 
 .section-portfolio{
