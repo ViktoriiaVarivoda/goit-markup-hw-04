@@ -407,9 +407,8 @@ background: #F5F4FA;
     display: inline-flex;
 }
 
-​.footer-soc-content{
+​.footer-soc-content {
     margin-left: 70px;
-    margin-top: 72px;
 }
 
 .footer-logo {
@@ -468,6 +467,22 @@ background: #F5F4FA;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-soc-content{
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
 
 .footer-soc-item+.footer-soc-item {
     margin-left: 10px;
