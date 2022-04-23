@@ -63,6 +63,7 @@ img
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
+    display: flex;
 }
 
 .main-nav{
@@ -383,7 +384,8 @@ margin: 0 auto;
     fill: currentColor;
 }
 
-.team-soc-link:hover{
+.team-soc-link:hover,
+.team-soc-link:focus{
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -398,8 +400,9 @@ margin: 0 auto;
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    display: flex;
     background-color: #2F303A;
+    
 }
 
 .footer-logo {
@@ -459,7 +462,39 @@ margin: 0 auto;
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-soc-item+.footer-soc-item {
+    margin-left: 10px;
+}
 
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.footer-soc-list {
+    display: flex;
+}
+
+.footer-soc-content {
+    display: flex;
+
+}
 /*------------portfolio.html-----------*/
 
 .section-portfolio{
