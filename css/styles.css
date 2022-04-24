@@ -144,6 +144,9 @@ img
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mailto-tel{
@@ -236,7 +239,6 @@ margin: 0 auto;
     margin-bottom: 30px;
 }
 
-/
 /*
 .section-one-item::before{
     display: block;
@@ -266,7 +268,7 @@ margin: 0 auto;
 }
 */
 
-.section-soc{
+.section-soc {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,6 +276,7 @@ margin: 0 auto;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 
@@ -455,11 +458,15 @@ background: #F5F4FA;
 }
 
 .clients-soc-link{
+    width: 170px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-    display: block;
     color: #AFB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clients-soc-icon {
@@ -470,6 +477,7 @@ background: #F5F4FA;
 .clients-link:focus {
     background-color: #FFFFFF;
     color: #2196F3;
+    border: 1px solid #2196F3;
 }
 
 .clients-soc-list{
