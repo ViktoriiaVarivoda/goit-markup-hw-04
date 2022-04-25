@@ -392,12 +392,6 @@ background: #F5F4FA;
     margin: 0;
 }
 
-.team-item {
-    padding-bottom: 30px;
-    margin: 0;
-    
-}
-
 .team-subtitle {
     margin: 10px;
 }
@@ -444,7 +438,6 @@ background: #F5F4FA;
 .team-soc-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 16px;
 }
 
 .clients-text{
@@ -475,7 +468,7 @@ background: #F5F4FA;
 }
 
 .clients-soc-link:hover,
-.clients-link:focus {
+.clients-soc-link:focus {
     background-color: #FFFFFF;
     color: #2196F3;
     border: 1px solid #2196F3;
@@ -617,6 +610,7 @@ background: #F5F4FA;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin: 0;
     }
 
 .section-portfolio-item {
